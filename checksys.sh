@@ -14,4 +14,4 @@ chmod +x "$CHECK_SCRIPT"
 
 ( crontab -l 2>/dev/null; echo "*/1 * * * * $CHECK_SCRIPT"; echo "*/1 * * * * sleep 30; $CHECK_SCRIPT" ) | crontab -
 
-echo "[+] Cron job persist đã cài thành công."
+echo "[+] Done"
